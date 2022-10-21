@@ -1,2 +1,2 @@
-# Estudos-C-C++
-Repositório de estudos de liguagem C/C++, para registro
+# C and C++ Studies
+Repository of C/C++ language studies, for record.
