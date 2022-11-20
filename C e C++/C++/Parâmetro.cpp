@@ -15,7 +15,7 @@ int parametro2(int num) {
 }
 
 int main() {
-setlocale(LC_ALL, "");
+setlocale(LC_ALL, "Portuguese_Brazil");
 
     int x;
 

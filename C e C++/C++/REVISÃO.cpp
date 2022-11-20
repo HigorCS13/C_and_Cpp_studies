@@ -7,55 +7,55 @@
 #include <iostream>
 #include <stdbool.h>
 
-//Funções automatizadas:
+//Funï¿½ï¿½es automatizadas:
 
 using namespace std;
 
 int main() {
 setlocale(LC_ALL, "");
 
-//Vairáveis:
+	//Vairï¿½veis:
 
-int d;
-float f;
-char c;
-bool b;
+	int d;
+	float f;
+	char c;
+	bool b;
 
-//Valores:
+	//Valores:
 
-d = 10;
-f = 2.9;
-c = 'H';
-b = true;
+	d = 10;
+	f = 2.9;
+	c = 'H';
+	b = true;
 
-//Imprimindo em C:
+	//Imprimindo em C:
 
-printf("%d\n", d);
-printf("%.2f\n", f);
-printf("%c\n", c);
-printf("%d\n", b);
+	printf("%d\n", d);
+	printf("%.2f\n", f);
+	printf("%c\n", c);
+	printf("%d\n", b);
 
-//Imprimindo em C++:
+	//Imprimindo em C++:
 
-cout << "Olá!";
+	cout << "Olï¿½!";
 
-//Lendo Valores em C:
+	//Lendo Valores em C:
 
-scanf("Novo valor inteiro: %d", &d);
-printf("%d\n", d);
-scanf("Novo valor decimal: %f", &f);
-printf("%.2f\n", f);
+	scanf("Novo valor inteiro: %d", &d);
+	printf("%d\n", d);
+	scanf("Novo valor decimal: %f", &f);
+	printf("%.2f\n", f);
 
-//Lendo Valores em C++:
+	//Lendo Valores em C++:
 
-cout << "\nNovo valor caractére: ";
-cin >> c;
-cout << "\nNovo valor booleano: ";
-cin >> b;
+	cout << "\nNovo valor caractï¿½re: ";
+	cin >> c;
+	cout << "\nNovo valor booleano: ";
+	cin >> b;
 
 
-printf("\n");
-system("pause");
+	printf("\n");
+	system("pause");
 
-return 0;
+	return 0;
 }

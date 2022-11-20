@@ -10,24 +10,24 @@ setlocale(LC_ALL, "");
     char c = 't';
 
     if (a == 5) {
-        printf("Vari·vel a = 5");
+        printf("Vari√°vel a = 5");
     }
     printf("\n");
 
     if (b == 2.5) {
-        printf("Vari·vel b = 2,5");
+        printf("Vari√°vel b = 2,5");
     }
     printf("\n");
 
     if (c == 't') {
-        printf("Vari·vel c = letra t");
+        printf("Vari√°vel c = letra t");
     }
     printf("\n");
 
     if (a%2 == 1) {
-        printf("Vari·vel a È impar!");
+        printf("Vari√°vel a √© impar!");
     }else {
-        printf("vari·vel a È par!");
+        printf("Vari√°vel a √© par!");
     }
 
 printf("\n");

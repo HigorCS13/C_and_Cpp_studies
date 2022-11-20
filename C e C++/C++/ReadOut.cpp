@@ -11,7 +11,16 @@ int main()
 {
 	setlocale(LC_ALL, "Portuguese_Brazil");
 
+	ifstream input("Texto.txt");
 
+	string read;
+
+	for (string line; getline(input, line);)
+	{
+		read += line;
+	}
+
+	cout << read;
 
 	printf("\n");
 	system("pause");
